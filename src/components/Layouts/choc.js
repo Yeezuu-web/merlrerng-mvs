@@ -21,6 +21,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { AiFillHome, AiOutlineInbox, AiOutlineMenu } from "react-icons/ai";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { FaMoon, FaSun } from "react-icons/fa";
+import NextLink from "next/link"
 // import { Logo } from "@choc-ui/logo";
 
 const Choc = () => {
@@ -35,6 +36,7 @@ const Choc = () => {
   const tcl = useColorModeValue("gray.900", "gray.50");
   const dcl = useColorModeValue("gray.500", "gray.50");
   const hbgh = useColorModeValue("gray.100", "brand.500");
+  const ft = useColorModeValue("brand.50", "gray.800");
   
   const Section = (props) => {
     return (
@@ -80,6 +82,7 @@ const Choc = () => {
         px={5}
         py={6}
         p={{ sm: 8 }}
+        bg={ft}
       >
         <Section
           title="Analytics"
@@ -269,7 +272,7 @@ const Choc = () => {
 
   return (
     <React.Fragment>
-      <chakra.header h="full" bg={bg} w="full" px={{ base: 2, sm: 4 }} py={4}>
+      <chakra.header h="10vh" bg={bg} w="full" px={{ base: 2, sm: 4 }} py={4} position="relative" zIndex="9999">
         <Flex alignItems="center" justifyContent="space-between" mx="auto">
           <Link display="flex" alignItems="center" href="/">
             {/* <Logo /> */}
@@ -325,12 +328,16 @@ const Choc = () => {
           <Spacer />
           <Box display="flex" alignItems="center">
             <HStack spacing={1}>
-              <Button colorScheme="brand" variant="ghost" size="sm">
-                Sign in
-              </Button>
-              <Button colorScheme="brand" variant="solid" size="sm">
-                Sign up
-              </Button>
+              <NextLink href='/auth/login' passHref>
+                <Button variant="brand" size="sm">
+                  Sign in
+                </Button>
+              </NextLink>
+              <NextLink href='/auth/register' passHref>
+                <Button variant="primary" size="sm">
+                  Sign up
+                </Button>
+              </NextLink>
             </HStack>
             <IconButton
               size="md"

@@ -1,6 +1,7 @@
 import { Box, calc, Portal } from "@chakra-ui/react"
 import { useRef, createRef } from "react"
 import AuthFooter from "../Footer/AuthFooter"
+import Choc from "./choc"
 
 const Auth = ({children}) => {
     const warpper = createRef()
@@ -8,12 +9,13 @@ const Auth = ({children}) => {
 
     return (
         <>
-            <Box ref={navRef} w={'100%'} h="100vh">
+            <Box ref={navRef} w="full" h="full">
+                <Choc/>
                 <Portal containerRef={navRef}>
                     
                 </Portal>
-                <Box w={'100%'}>
-                    <Box ref={warpper} w={'100%'}>
+                <Box w="full" h="full">
+                    <Box ref={warpper} w="full">
                         {children}
                     </Box>
                 </Box>

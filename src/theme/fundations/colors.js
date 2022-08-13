@@ -1,8 +1,8 @@
 
 export const colors = {
     transparent: 'transparent',
-    black: '#000',
-    white: '#fff',
+    black: '#0F0F0F',
+    white: '#F3F3F3',
     gray: {
         50: '#F7FAFC',
         100: '#EDF2F7',
@@ -16,8 +16,21 @@ export const colors = {
         900: '#171923',
     },
     brand: {
-        900: "#1a365d",
-        800: "#153e75",
-        700: "#2a69ac",
-        },
+        900: "#040033",
+        800: "#080066",
+        700: "#0D0099",
+        600: "#1100CC",
+        500: "#7B6FFF",
+        400: "#4433FF",
+        300: "#7366FF",
+        200: "#A299FF",
+        100: "#D0CCFF",
+        50: "#E8E5FF",
+    },
+    primary: '#209CF5',
+    secondary: '#D8D8D8',
+    success: '#20F59C',
+    danger: '#F5206D',
+    warning: '#F5B920',
+    info: '#20CFF5',
 }

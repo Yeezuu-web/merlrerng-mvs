@@ -549,7 +549,7 @@
   dependencies:
     "@chakra-ui/utils" "2.0.6"
 
-"@chakra-ui/react@^2.2.6":
+"@chakra-ui/react@^2.2.6", "@chakra-ui/react@>=1.6.0":
   "integrity" "sha512-WKzSqc6VTOKEPBabZnGzBf1SYcO/b5/an0+LT4icuPddlraXHvgYM5SmwYI0z5N/jNqbspWlyDda6zoLW6JVxA=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/react/-/react-2.2.6.tgz"
   "version" "2.2.6"
@@ -777,6 +777,11 @@
   "version" "2.0.6"
   dependencies:
     "@chakra-ui/utils" "2.0.6"
+
+"@choc-ui/logo@^1.0.0":
+  "integrity" "sha512-ObD6fhEeBv+UFm4Pnvl8Aj/QA0D5cYi8V/TCDTfnZFddlz+ZxLbydLt8LyFHKcoxonK29MB3D1YQAw+3qU8spw=="
+  "resolved" "https://registry.npmjs.org/@choc-ui/logo/-/logo-1.0.0.tgz"
+  "version" "1.0.0"
 
 "@ctrl/tinycolor@^3.4.0":
   "integrity" "sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw=="
@@ -2660,7 +2665,7 @@
     "invariant" "^2.2.4"
     "tslib" "^2.0.0"
 
-"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@>=18", "react@18.2.0":
+"react@*", "react@^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.2 || ^18.0.0-0", "react@^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@>=16.8.0", "react@>=18", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -2944,6 +2949,11 @@
   "integrity" "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ=="
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
+
+"typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.3.1":
+  "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
+  "version" "4.7.4"
 
 "unbox-primitive@^1.0.2":
   "integrity" "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw=="

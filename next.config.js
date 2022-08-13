@@ -4,9 +4,7 @@ const nextConfig = {
   swcMinify: true,
 }
 
-module.exports = {
-  nextConfig,
-  async redirects() {
+redirects = async () => {
     return [
       {
         source: '/login',
@@ -24,5 +22,9 @@ module.exports = {
         permanent: true,
       },
     ]
-  },
+},
+  
+module.exports = {
+  nextConfig,
+  redirects
 }

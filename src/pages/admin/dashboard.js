@@ -5,7 +5,7 @@ import { Text, Button } from '@chakra-ui/react'
 const Dasboard = () => {
   return (
     <>
-        <Button colorScheme='brand'>Dasboard</Button>
+        <Text fontSize="2xl" fontWeight="600" color="brand.900" _dark={{color:"white"}}>Dashboard</Text>
     </>
   )
 }
