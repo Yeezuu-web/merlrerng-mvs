@@ -1,5 +1,5 @@
-import "@fontsource/roboto-mono"
+import '@fontsource/roboto-mono'
 
 export const font = {
-    fontBody: 'Roboto Mono, sans-serif'
+    fontBody: 'Roboto Mono, sans-serif',
 }
